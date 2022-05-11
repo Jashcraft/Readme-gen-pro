@@ -40,7 +40,7 @@ const questions = [
     type: "list",
     name: "badgeLicense",
     message: "Describe the license for this Project.",
-    choices: ["The Hippocratic License 2.1", "GNU GPL v3", "WTFPL", "Apache 2.0 License", "A Fire Truck"]
+    choices: ["Hippocratic_2.1", "GPLv3", "WTFPL", "Apache_2.0", "A Fire Truck"]
   },
   {
     type: "input",
@@ -62,7 +62,9 @@ function writeToFile(fileName, data) { }
 function init() {
   inquirer.prompt(questions).then(answers => {
     const readMeData = generateMarkdown(answers);
-    console.log(readMeData);
+    fs.writeFile("generatedREADME.md", readMeData, () => {
+      console.log("Donion Rings!")
+    })
   })
 }
 
