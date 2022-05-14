@@ -19,9 +19,6 @@ Clone the repository locally and run 'npm i' to install all dependencies.
 ## Usage
 run 'node index.js' to start the application.
 
-## Walkthrough 
-[Walkthrough](https://drive.google.com/file/d/17A2vXN1t5y7GBpV-ykS_JEmpXeh1_eGh/view?usp=sharing)
-
 ## Contribution
 A contributor would need basic knowledge of JavaScript and the Inquirer package.
 
