@@ -1,6 +1,6 @@
-# ReadMe Generator Pro
+# CheckYourself
 
-![ChosenLicense](https://img.shields.io/badge/license-WTFPL-blue.svg)
+![ChosenLicense](https://img.shields.io/badge/license-Apache_2.0-blue.svg)
 
 ## Table Of Contents: 
   * [Description](#description)
@@ -11,19 +11,19 @@
   * [Contact](#contact)
 
 ## Description
-This application allows the user to generate readme files for their projects.
+Checkyourself allows you to log your mood and location and recommend activities to go with your mood! 
 
 ## Installation 
-Clone the repository locally and run 'npm i' to install all dependencies.
+Clone the repo and open the index.html in your browser OR click Here to use the deployed version.
 
 ## Usage
-run 'node index.js' to start the application.
+On the landing page, choose what state you are in. Once this is selected, you will have the option to log some notes about your mood as well as give it a score from 1-5 (1 being poor mood, 5 being an excellent mood). Once this is saved it will be moved into a card where you can click 'see suggestions' and on the right you should see some activities in your area to go with your mood. The Application also uses local storage so if you close the link and re-open it you should still see your previous moods.
 
 ## Contribution
-A contributor would need basic knowledge of JavaScript and the Inquirer package.
+To contribute, one would need to know basic Javascript and Bootstrap
 
 ## Testing
-After running index.js, look into the generatedREADME.md in the root level of the application to ensure it meets expected results.
+N/A
 
 ## Contact 
 jashcraft

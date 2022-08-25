@@ -31,5 +31,6 @@ After running index.js, look into the generatedREADME.md in the root level of th
 ## Contact 
 jashcraft
 ashcraft.jonathon@gmail.com
+Jackylcraft
 
 
