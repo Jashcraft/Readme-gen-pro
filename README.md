@@ -33,4 +33,7 @@ jashcraft
 ashcraft.jonathon@gmail.com
 Jackylcraft
 
+Testing out typing on VR with NO ability to actually see my keyboard ... 
+Dang o darn it works ! 
+
 
